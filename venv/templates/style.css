@@ -1,0 +1,77 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 400px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #0066ff;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066ff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #0050cc;
+}
+
+/* Error Message Box */
+.error-box {
+    background-color: #ffdddd;
+    border-left: 4px solid #ff4d4d;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    color: #b30000;
+}
+
+/* Success Message */
+.success-message {
+    text-align: center;
+    padding: 20px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
